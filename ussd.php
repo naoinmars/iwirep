@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+    
 <?php
 // Reads the variables sent via POST from our gateway
 $sessionId   = $_POST["sessionId"];
@@ -42,3 +45,5 @@ header('Content-type: text/plain');
 echo $response;
 
 ?>
+
+</html>
